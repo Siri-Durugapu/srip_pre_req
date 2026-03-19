@@ -42,3 +42,7 @@ def predict(text):
     choice = meta.predict(meta_features)[0]
 
     return nb_pred if choice == 0 else lr_pred
+
+if __name__ == "__main__":
+    text = input("Enter text: ")
+    print("Predicted Topic:", predict(text))

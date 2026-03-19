@@ -6,7 +6,7 @@ import random
 random.seed(42)
 
 def load_data(sample_size=100000):
-    parquet_file = pq.ParquetFile(r"C:\Users\Siri\Downloads\dataset_10M.parquet")
+    parquet_file = pq.ParquetFile("data/dataset_10M.parquet")
     dfs = []
     total = 0
 

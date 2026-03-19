@@ -38,12 +38,16 @@ This will preprocess the data, train the models, and save the final model.
 To test the model on custom input:
 
 ```bash
-python src/inference.py --text "your input text here"
+python src/inference.py 
 ```
 
+Then enter your input when prompted.
+
 Example:
-```bash
-python src/inference.py --text "The stock market is showing rapid growth"
+
+```
+Enter text: AI is changing the world. 
+Predicted Topic: software_developmet
 ```
 
 ---
