@@ -1,0 +1,32 @@
+FINAL RESULTS:
+
+                             precision    recall  f1-score   support
+
+              adult_content       1.00      1.00      1.00        68
+             art_and_design       0.68      0.65      0.66        68
+              crime_and_law       0.90      0.79      0.84        68
+         education_and_jobs       0.91      0.85      0.88        68
+    electronics_and_hardare       0.95      0.79      0.86        68
+              entertainment       0.88      0.76      0.82        68
+         fashion_and_beauty       0.79      0.78      0.79        69
+       finance_and_business       0.95      0.90      0.93        69
+            food_and_dining       0.90      0.93      0.91        68
+                      games       0.65      0.74      0.69        68
+                     health       0.47      0.77      0.58        69
+      history_and_geography       0.78      0.72      0.75        68
+           home_and_hobbies       0.95      0.88      0.92        68
+                 industrial       0.74      0.76      0.75        68
+                 literature       0.86      0.78      0.82        69
+                   politics       0.74      0.84      0.79        68
+                   religion       0.90      0.82      0.86        68
+science_math_and_technology       0.76      0.74      0.75        68
+                social_life       0.82      0.82      0.82        68
+                   software       0.86      0.90      0.88        69
+       software_development       0.80      0.82      0.81        68
+         sports_and_fitness       0.88      0.88      0.88        68
+             transportation       0.98      0.91      0.95        68
+         travel_and_tourism       0.80      0.78      0.79        68
+
+                   accuracy                           0.82      1637
+                  macro avg       0.83      0.82      0.82      1637
+               weighted avg       0.83      0.82      0.82      1637
