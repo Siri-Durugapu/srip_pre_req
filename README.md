@@ -10,8 +10,8 @@ All models used here are built from scratch (no pretrained models), following th
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-link>
-cd <repo-name>
+git clone https://github.com/Siri-Durugapu/srip_pre_req.git
+cd srip_pre_req
 ```
 
 2. Install required libraries:
@@ -86,6 +86,13 @@ project/
 ```
 
 ---
+
+## Reproducibility
+
+- Random seed is fixed (42)
+- No hardcoded paths are used
+- Data sampling is deterministic
+- The entire pipeline can be run using train.py and inference.py without manual changes
 
 ## Author
 
