@@ -1,4 +1,5 @@
 # Topic Classification Project
+Built from scratch without using any pretrained models, as per the given constraints.
 
 ## Overview
 This project is about building a text classification system that predicts the topic of a given text.  
@@ -29,7 +30,11 @@ To train the model, run:
 python src/train.py
 ```
 
-This will preprocess the data, train the models, and save the final model.
+This will:
+- Load and sample data efficiently from the large dataset
+- Preprocess the text
+- Train multiple models
+- Save them in the `final_models/` folder
 
 ---
 
@@ -49,6 +54,16 @@ Example:
 Enter text: AI is changing the world. 
 Predicted Topic: software_developmet
 ```
+
+---
+
+## Input / Output
+
+**Input:**
+- A raw text string
+
+**Output:**
+- Predicted topic label (string)
 
 ---
 
@@ -73,6 +88,23 @@ Predicted Topic: software_developmet
 
 ---
 
+## Reproducibility
+
+- Random seed is fixed (42)
+- No hardcoded paths are used
+- Data sampling is deterministic
+- The entire pipeline can be run using train.py and inference.py without manual changes
+
+---
+
+## Notes
+
+- The original dataset is very large (10M rows), so sampling is used for efficiency.
+- Trained model files are not included due to size constraints.  
+  Please run `train.py` before running inference.
+
+---
+
 ## Project Structure
 
 ```
@@ -90,13 +122,6 @@ project/
 ```
 
 ---
-
-## Reproducibility
-
-- Random seed is fixed (42)
-- No hardcoded paths are used
-- Data sampling is deterministic
-- The entire pipeline can be run using train.py and inference.py without manual changes
 
 ## Author
 
