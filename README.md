@@ -30,6 +30,7 @@ source venv/bin/activate
 - **Windows:**
 ```bash
 venv\Scripts\activate
+```
 
 3. Install required libraries:
 ```bash
