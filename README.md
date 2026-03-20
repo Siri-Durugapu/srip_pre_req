@@ -15,7 +15,23 @@ git clone https://github.com/Siri-Durugapu/srip_pre_req.git
 cd srip_pre_req
 ```
 
-2. Install required libraries:
+2. Create virtual environment
+```bash
+python -m venv venv
+```
+
+Activate it:
+
+- **Linux/Mac:**
+```bash
+source venv/bin/activate
+```
+
+- **Windows:**
+```bash
+venv\Scripts\activate
+
+3. Install required libraries:
 ```bash
 pip install -r requirements.txt
 ```
@@ -52,7 +68,7 @@ Example:
 
 ```
 Enter text: AI is changing the world. 
-Predicted Topic: software_developmet
+Predicted Topic: software_development
 ```
 
 ---
@@ -101,7 +117,13 @@ Predicted Topic: software_developmet
 
 - The original dataset is very large (10M rows), so sampling is used for efficiency.
 - Trained model files are not included due to size constraints.  
-  Please run `train.py` before running inference.
+- Please run:
+
+```bash
+python src/train.py
+```
+
+before running inference.
 
 ---
 
@@ -125,4 +147,4 @@ project/
 
 ## Author
 
-Siri Durugapu
+**Siri Durugapu**
